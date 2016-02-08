@@ -1,0 +1,15 @@
+Commands :
+- compare 2 commits :
+    git diff (+ least recent id + most recent id)
+- copy an entire git repository onto your computer (incl. history):
+    git clone
+- securely copy a directory from one computer to another (no history):
+    git scp
+- temporarily reset all files in a directory to their state at the time of a specific commit :
+    git checkout
+- chow the commits made in this repository, starting with the most recent :
+    git log
+- initializing a repository :
+    git init
+- show last commit and status of the repository :
+    git status

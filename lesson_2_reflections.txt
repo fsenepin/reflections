@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+    It creates metadata files in order to be able to do versioning using git.
+    You need to do it because a repository isn't linked to git and ready for
+    versioning by default.
