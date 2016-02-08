@@ -1,0 +1,52 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    We only see what has been change, therefore we don't have to scroll through
+    the whole file and sometimes thousands of lines to find a small typo. It's
+    clear and simple to see where there could have been a mistake.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It can help to see the evolution of a project, sometimes get back to
+    previous versions to present because of a bug in the last one. It can also
+    be useful to recover something you would have deleted but actually need.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    You don't have too many versions (more than necessary). You can make sure
+    that the versions you have can be compiled & executed.
+
+    By manually committing, you can do so logically. For example, one commit per
+    logical change, i.e. if you change 2 separate functions, you make 2 commits.
+    If it's just some typo in a ReadMe file, 1 commit is enough.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because it happens a lot that when you code a project you have multiple
+    files that are connected. Therefore, you often have to change multiple files
+    when you want to modify something on your project.
+    Thus, it is better to commit all these files at once to see that they were
+    affected by the same modification.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Go to the directory you want to control and simply type "git log" to view
+    the different commits that were made. Once you've done that, you can exit by
+    typing "q" and then compare the changes made between 2 commits by typing
+    "git diff first_id second_id"
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    If you do break something, you can go "back in time" and recover a previous
+    version to fix the problem.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to use git for my development projects :
+    - an Android app (tutorial then a "real" one)
+    - my websites projects using Symfony 2
