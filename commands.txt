@@ -13,3 +13,7 @@ Commands :
     git init
 - show last commit and status of the repository :
     git status
+- add a fie to the Staging area :
+    git add
+- remove a file from staging area :
+    git reset (+file name)
