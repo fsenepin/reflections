@@ -17,3 +17,26 @@ Commands :
     git add
 - remove a file from staging area :
     git reset (+file name)
+- commit files from staging area with a commit message :
+    git commit (+file name or none) -m "commit message"
+- compare differences between the current directory with the staging area :
+    git diff      WITHOUT any arguments
+- compare differences between the staging area and the last commit in the
+  git repository :
+    git diff --staged
+- discard any changes made in the working directory and staging area :
+  (!! can't get the deleted changes back after that !!)
+    git reset --hard
+
+- show current branches :
+    git branch
+- create new branch :
+    git branch (+ branch name)
+- change branch :
+    git checkout (+ branch name)
+- check the repository branch structure
+    git log --graph (--oneline) (+branches you want to visualize)
+- create new branch AND change branch to this one :
+    git checkout -b (+ branch name)
+- delete a branch (only deletes the label) :
+    git branch -d (+branch name)
