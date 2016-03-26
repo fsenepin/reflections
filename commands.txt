@@ -2,7 +2,7 @@ Commands :
 - compare 2 commits :
     git diff (+ least recent id + most recent id)
 - copy an entire git repository onto your computer (incl. history):
-    git clone
+    git clone (+url)
 - securely copy a directory from one computer to another (no history):
     git scp
 - temporarily reset all files in a directory to their state at the time of a specific commit :
@@ -40,3 +40,10 @@ Commands :
     git checkout -b (+ branch name)
 - delete a branch (only deletes the label) :
     git branch -d (+branch name)
+
+- configure proxy :
+    git config --global http.proxy http://proxyuser:proxypwd@proxy.server.com:8080
+- unset proxy :
+    git config --global --unset http.proxy
+- check configured proxy :
+    git config --global --get http.proxy
