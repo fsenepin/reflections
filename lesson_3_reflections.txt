@@ -1,0 +1,3 @@
+When would you want to create a remote repository rather than keeping all your work local?
+
+You'd want to do this when you want to work with others on a common project or if you'd like to have a simple project hosted on github (a website for example)
