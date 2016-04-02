@@ -47,3 +47,20 @@ Commands :
     git config --global --unset http.proxy
 - check configured proxy :
     git config --global --get http.proxy
+- OR for all (not just git) :
+
+//Using Github
+
+- see the available remote repositories of your local repository :
+    git remote (+ "-v" to see actions you can have on the remote(s))
+- add a remote repository of your local repository on Github : (for the remote
+  name, see "fork-repository-1.png")
+    git remote add (+remote repository name - e.g. "origin") (+url of the repository you created on github)
+- push commits to your remote repository
+    git push (+add remote repository name) (+specify the branch - e.g. "master")
+- pull commits from your remote repository
+    git pull (+add remote repository name) (+specify the branch - e.g. "master")
+- update just the local copy of the remote branch : (to use git log and git branch to see which changes were introduced)
+  ideal when you need to resolve conflicts locally, and then merge origin/master in master
+    git fetch
+    //git pull origin master = git fetch origin + git merge master origin/master
